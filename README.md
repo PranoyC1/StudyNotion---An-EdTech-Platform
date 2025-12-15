@@ -9,7 +9,7 @@ In the following sections, we will cover the technical details of the platform, 
 System Architecture
 The StudyNotion EdTech platform consists of three main components: the front-end, the back-end, and the database. The platform follows a client-server architecture, with the front-end serving as the client and the back-end and database serving as the server.
 
-Front-end
+**Front-end**
 The front-end of the platform is built using ReactJS, which allows for the creation of dynamic and responsive user interfaces, crucial for providing an engaging learning experience to students. The front-end communicates with the back-end using RESTful API calls.
 
 Front End Pages
@@ -31,7 +31,7 @@ View and Edit Profile Details: Allows instructors to view and edit their account
 Front-end Tools and Libraries
 To build the front-end, we use frameworks and libraries such as ReactJS, CSS, and Tailwind for styling, and Redux for state management.
 
-Back-end
+**Back-end**
 The back-end of the platform is built using NodeJS and ExpressJS, providing APIs for the front-end to consume. These APIs include functionalities such as user authentication, course creation, and course consumption. The back-end also handles the logic for processing and storing the course content and user data.
 
 Back-end Features
