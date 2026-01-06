@@ -25,11 +25,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "https://studynotion-an-edtech-platform-qgo4.onrender.com",
-    ],
-    credentials: true,
+        origin: "http://localhost:3000",
+        credentials: true,
   })
 );
 app.use(
