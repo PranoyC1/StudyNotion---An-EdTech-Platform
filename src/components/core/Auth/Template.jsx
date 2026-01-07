@@ -45,7 +45,7 @@ function Template({ title, description1, description2, image, formType }) {
             </p>
 
             {formType === "signup" ? (
-              <SignupForm />
+              <SignupForm onDemoLogin={handleDemoLogin} />
             ) : (
               <LoginForm onDemoLogin={handleDemoLogin} />
             )}
