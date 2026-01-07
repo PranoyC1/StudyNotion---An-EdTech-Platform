@@ -14,6 +14,10 @@ const dotenv = require("dotenv");
 
 const PORT = process.env.PORT || 4000;
 
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://study-notion-an-ed-tech-platform-six.vercel.app"
+]
 
 dotenv.config();
 
@@ -25,7 +29,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-        origin: true,
+        origin: allowedOrigins,
         credentials: true,
   })
 );
