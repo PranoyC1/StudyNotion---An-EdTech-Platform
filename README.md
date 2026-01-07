@@ -48,7 +48,7 @@ This project is intended as a learning tool and can be used as a sample project 
 
 1. Clone the repository to your local machine.
     ```sh
-    git clone https://github.com/AJkakarot/Study-Notion-master.git
+    git clone https://github.com/PranoyC1/StudyNotion---An-EdTech-Platform.git
     ```
 
 2. Install the required packages.
