@@ -18,7 +18,7 @@ function Template({ title, description1, description2, image, formType }) {
     const password = "1111"
     const email =
       type === ACCOUNT_TYPE.STUDENT
-        ? "yiganel690@cameltok.com"
+        ? "niyik41759@divahd.com"
         : "podegi6775@icousd.com"
 
     dispatch(login(email, password, navigate))
